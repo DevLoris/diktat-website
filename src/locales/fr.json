@@ -1,0 +1,12 @@
+{
+  "nav": {
+    "home": "Accueil",
+    "about": "À Propos"
+  },
+  "about": {
+    "title": "À propos de diktat."
+  },
+  "home": {
+    "title": "C'est ici la page d'accueil."
+  }
+}
