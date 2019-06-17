@@ -8,5 +8,9 @@
   },
   "home": {
     "title": "C'est ici la page d'accueil."
+  },
+  "NotFound": {
+    "title": "Erreur 404 !",
+    "content": "La page que vous avez demandé n'existe pas."
   }
 }

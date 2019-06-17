@@ -1,5 +1,7 @@
 # diktat-website
 
+**Project URL: [https://dazzling-agnesi-c620e5.netlify.com/]()**
+
 ## Project setup
 ```
 npm install
