@@ -1,11 +1,10 @@
 <template>
   <div id="app">
     <div id="nav">
-      <router-link to="/">{{ $t('nav.home') }}</router-link> |
+      <router-link to="/">{{ $t('nav.home') }}</router-link>
       <router-link to="/about">{{ $t('nav.about') }}</router-link>
     </div>
     <LocaleSwitch/>
-    <CenteredText :text="$t('layer.catch')"></CenteredText>
     <router-view/>
   </div>
 </template>
@@ -14,9 +13,12 @@
   import LocaleSwitch from "./components/LocaleSwitch";
   import * as locales from "./constants/locales";
   import CenteredText from "./components/CenteredText";
+  import QuoteText from "./components/QuoteText";
+  import Logo from "./components/Logo";
+  import FullscreenFrame from "./components/FullscreenFrame";
 
   export default {
-    components: {CenteredText, LocaleSwitch},
+    components: {FullscreenFrame, Logo, QuoteText, CenteredText, LocaleSwitch},
     /**
      *
      */
@@ -30,6 +32,10 @@
 </script>
 
 <style lang="scss">
+  body {
+    padding: 0;
+    margin: 0;
+  }
   #app {
     font-family: 'Avenir', Helvetica, Arial, sans-serif;
     -webkit-font-smoothing: antialiased;
@@ -39,11 +45,15 @@
   }
   #nav {
     padding: 30px;
+    position: fixed;
+    right: 20px;
+    top: 20px;
     a {
       font-weight: bold;
-      color: #2c3e50;
+      color: #ffffff;
       &.router-link-exact-active {
-        color: #42b983;
+        color: #ffffff;
+        display: none;
       }
     }
   }

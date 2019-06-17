@@ -1,10 +1,14 @@
 <template>
-    <p>{{ text }}</p>
+    <FullscreenFrame>
+        <p>{{ text }}</p>
+    </FullscreenFrame>
 </template>
 
 <script>
+    import FullscreenFrame from "./FullscreenFrame";
     export default {
         name: "CenteredText",
+        components: {FullscreenFrame},
         props: {
             text: ''
         },
@@ -14,5 +18,7 @@
 </script>
 
 <style scoped>
+    p {
 
+    }
 </style>
