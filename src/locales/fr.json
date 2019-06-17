@@ -3,6 +3,19 @@
     "home": "Accueil",
     "about": "À Propos"
   },
+  "definition": {
+    "source": "Centre National de Ressources Textuelles et Lexicales",
+    "text": "Caractère de ce qui est beau, de ce qui plaît universellement."
+  },
+  "but": {
+    "text": "Et pourtant..."
+  },
+  "look": {
+    "text": "Regarde d'un peu plus près"
+  },
+  "yousee": {
+    "text": "As-tu remarqué quelque chose de particulier ?"
+  },
   "layer": {
     "catch": "Texte cool"
   },
