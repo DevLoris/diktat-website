@@ -3,6 +3,9 @@
     "home": "Home",
     "about": "About"
   },
+  "layer": {
+    "catch": "Cool text"
+  },
   "about": {
     "title": "About de diktat."
   },
