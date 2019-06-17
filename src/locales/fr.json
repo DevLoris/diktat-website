@@ -3,6 +3,9 @@
     "home": "Accueil",
     "about": "À Propos"
   },
+  "layer": {
+    "catch": "Texte cool"
+  },
   "about": {
     "title": "À propos de diktat de la beauté."
   },

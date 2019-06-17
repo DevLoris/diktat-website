@@ -5,6 +5,7 @@
       <router-link to="/about">{{ $t('nav.about') }}</router-link>
     </div>
     <LocaleSwitch/>
+    <CenteredText :text="$t('layer.catch')"></CenteredText>
     <router-view/>
   </div>
 </template>
@@ -12,9 +13,10 @@
 <script>
   import LocaleSwitch from "./components/LocaleSwitch";
   import * as locales from "./constants/locales";
+  import CenteredText from "./components/CenteredText";
 
   export default {
-    components: {LocaleSwitch},
+    components: {CenteredText, LocaleSwitch},
     /**
      *
      */
