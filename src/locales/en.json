@@ -3,6 +3,16 @@
     "home": "Home",
     "about": "About"
   },
+  "definition": {
+    "source": "Centre National de Ressources Textuelles et Lexicales",
+    "text": "Caractère de ce qui est beau, de ce qui plaît universellement."
+  },
+  "but": {
+    "text": "But..."
+  },
+  "look": {
+    "text": "Look closer"
+  },
   "layer": {
     "catch": "Cool text"
   },
