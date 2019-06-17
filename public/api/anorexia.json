@@ -1,0 +1,60 @@
+{
+    "name": "anorexia",
+    "title": "L'anorexie",
+    "layers": [
+        {
+            "id": "background",
+            "type": "image",
+            "material": "femme-fond2",
+            "position": [0,0.05,0], 
+            "rotation": [0,0,0,0] , 
+            "size": [1,1],
+            "opacity": 1,
+            "animation": null,
+            "hidden_default": false,
+            "click_event": [{"apply" : "NONE", "on": "his", "duration": 0, "delay": 0}]
+        },
+        {
+            "id": "plantes_v2",
+            "type": "gif",
+            "material": "test",
+            "position": [0,0.1,0], 
+            "rotation": [0,0,0,0] , 
+            "size": [1,1],
+            "opacity": 1,
+            "animation": null,
+            "hidden_default": false,
+            "click_event": [{"apply" : "NONE", "on": "his", "duration": 0, "delay": 0}]
+        },
+        {
+            "id": "femme",
+            "type": "image",
+            "material": "femme-fond",
+            "position": [0,0.3,0], 
+            "rotation": [0,0,0,0] , 
+            "size": [1,1],
+            "opacity": 1,
+            "animation": null,
+            "hidden_default": false,
+            "click_event": [
+                {"apply" : "SHOW", "on": "skull", "duration": 0, "delay": 0},
+                {"apply" : "FADEIN", "on": "skull", "duration": 1, "delay": 0}
+            ]
+        },
+        {
+            "id": "skull",
+            "type": "image",
+            "material": "skullpardessus",
+            "position": [0,0.4,0], 
+            "rotation": [0,0,0,0] , 
+            "size": [1,1],
+            "opacity": 1,
+            "animation": null,
+            "hidden_default": true,
+            "click_event": [
+                {"apply" : "FADEOUT", "on": "this", "duration": 1, "delay": 0},
+                {"apply" : "HIDE", "on": "this", "duration": 0, "delay": 1}
+            ] 
+        }
+    ]
+}
