@@ -27,6 +27,18 @@
             "click_event": []
         },
         {
+            "id": "background_particles",
+            "type": "particles",
+            "material": "skullpardessus",
+            "position": [0,0.20,0],
+            "rotation": [0,0,0,0] ,
+            "size": [1,1],
+            "opacity": 1,
+            "animation": null,
+            "hidden_default": false,
+            "click_event": []
+        },
+        {
             "id": "background_rouge_a_levres",
             "type": "image",
             "material": "rouge_a_levres",
