@@ -1,11 +1,12 @@
 {
     "name": "makeup",
     "title": "Le Maquillage",
+    "text": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Delectus deserunt eius eos esse eveniet, exercitationem facilis illum, incidunt iusto labore magni minima nemo perspiciatis, reiciendis reprehenderit? Esse neque obcaecati sit!",
     "layers": [
         {
             "id": "background",
             "type": "image",
-            "material": "background",
+            "material": "makeup_background",
             "position": [0,0.05,0],
             "rotation": [0,0,0,0] ,
             "size": [1,1],
@@ -17,7 +18,7 @@
         {
             "id": "wall",
             "type": "image",
-            "material": "wall",
+            "material": "makeup_wall",
             "position": [0,0.1,0],
             "rotation": [0,0,0,0] ,
             "size": [1,1],
@@ -29,8 +30,8 @@
         {
             "id": "title",
             "type": "gif",
-            "material": "title",
-            "position": [0,0.12,0],
+            "material": "makeup_title",
+            "position": [0,0.4,0],
             "rotation": [0,0,0,0] ,
             "size": [1,1],
             "opacity": 1,
@@ -41,7 +42,7 @@
         {
             "id": "mirror",
             "type": "image",
-            "material": "mirror",
+            "material": "makeup_mirror",
             "position": [0,0.15,0],
             "rotation": [0,0,0,0] ,
             "size": [1,1],
@@ -53,7 +54,7 @@
         {
             "id": "woman_mirror",
             "type": "gif",
-            "material": "woman_mirror",
+            "material": "makeup_woman_mirror",
             "position": [0,0.20,0],
             "rotation": [0,0,0,0] ,
             "size": [1,1],
@@ -65,7 +66,7 @@
         {
             "id": "woman",
             "type": "image",
-            "material": "woman",
+            "material": "makeup_woman",
             "position": [0,0.25,0],
             "rotation": [0,0,0,0] ,
             "size": [1,1],
