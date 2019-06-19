@@ -1,0 +1,78 @@
+{
+    "name": "makeup",
+    "title": "Le Maquillage",
+    "layers": [
+        {
+            "id": "background",
+            "type": "image",
+            "material": "background",
+            "position": [0,0.05,0],
+            "rotation": [0,0,0,0] ,
+            "size": [1,1],
+            "opacity": 1,
+            "animation": null,
+            "hidden_default": false,
+            "click_event": []
+        },
+        {
+            "id": "wall",
+            "type": "image",
+            "material": "wall",
+            "position": [0,0.1,0],
+            "rotation": [0,0,0,0] ,
+            "size": [1,1],
+            "opacity": 1,
+            "animation": null,
+            "hidden_default": false,
+            "click_event": []
+        },
+        {
+            "id": "title",
+            "type": "gif",
+            "material": "title",
+            "position": [0,0.12,0],
+            "rotation": [0,0,0,0] ,
+            "size": [1,1],
+            "opacity": 1,
+            "animation": null,
+            "hidden_default": false,
+            "click_event": []
+        },
+        {
+            "id": "mirror",
+            "type": "image",
+            "material": "mirror",
+            "position": [0,0.15,0],
+            "rotation": [0,0,0,0] ,
+            "size": [1,1],
+            "opacity": 1,
+            "animation": null,
+            "hidden_default": false,
+            "click_event": []
+        },
+        {
+            "id": "woman_mirror",
+            "type": "gif",
+            "material": "woman_mirror",
+            "position": [0,0.20,0],
+            "rotation": [0,0,0,0] ,
+            "size": [1,1],
+            "opacity": 1,
+            "animation": null,
+            "hidden_default": false,
+            "click_event": []
+        },
+        {
+            "id": "woman",
+            "type": "image",
+            "material": "woman",
+            "position": [0,0.25,0],
+            "rotation": [0,0,0,0] ,
+            "size": [1,1],
+            "opacity": 1,
+            "animation": null,
+            "hidden_default": false,
+            "click_event": []
+        }
+    ]
+}
