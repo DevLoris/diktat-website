@@ -41,7 +41,7 @@
         },
         {
             "id": "public",
-            "type": "gif",
+            "type": "image",
             "material": "anorexia_public",
             "position": [0,0.15,0],
             "rotation": [0,0,0,0] ,
