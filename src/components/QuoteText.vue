@@ -1,6 +1,6 @@
 <template>
     <FullscreenFrame>
-        <blockquote>
+        <blockquote :data-lax-rotate="getRotateString()" :data-lax-scale="getScaleString()" :data-lax-opacity="getOpacityString()" class="lax">
             <p>{{ text }}</p>
             <footer>— <cite>{{ source }}</cite></footer>
         </blockquote>
@@ -15,8 +15,20 @@
         props: {
             text: '',
             source: '',
+            index: null
         },
         mounted() {
+        },
+        methods: {
+            getOpacityString() {
+                return '(' +(this.index-0.2) + '*1vh) 0, (' +(this.index) + '*1vh) 1, (' +(this.index+1) + '*1vh) 1, (' +(this.index+1.2) + '*1vh) 0'
+            },
+            getScaleString() {
+                return '(' +(this.index-0.2) + '*1vh) 10, (' +(this.index) + '*1vh) 1'
+            },
+            getRotateString() {
+                return '(' +(this.index - 0.2) + '*1vh) 10, (' +(this.index) + '*1vh) 0'
+            }
         }
     }
 </script>

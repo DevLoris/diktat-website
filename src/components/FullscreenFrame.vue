@@ -1,6 +1,6 @@
 <template>
     <div class="frame">
-        <slot/>
+            <slot/>
     </div>
 </template>
 
@@ -10,15 +10,13 @@
     }
 </script>
 
-<style scoped>
+<style lang="scss" scoped>
     .frame {
-        background: #AC0E22;
-        width: 100vw;
-        height: 100vh;
+        position: fixed;
+        transform: translate(-50%, -50%);
+        left: 50%;
+        top: 50%;
         color: white;
-        display: flex;
-        align-items: center;
-        justify-content: center;
         font-size: 35px;
         font-weight: bold;
     }

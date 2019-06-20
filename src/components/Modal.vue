@@ -1,7 +1,9 @@
 <template>
     <div class="modal" v-if="show">
         <button class="modal-close" @click="close">X</button>
-        <slot/>
+        <div>
+            <slot/>
+        </div>
     </div>
 </template>
 
@@ -13,22 +15,31 @@
         },
         methods: {
             close() {
-                this.show = !this.show;
+                this.show = false
             }
         }
     }
 </script>
 
-<style scoped>
+<style lang="scss" scoped>
     .modal {
-        position: absolute;
-        top: 0;
-        left: 0;
-        width: 100vw;
-        height: 100vh;
+        position: fixed;
+        top: 25px;
+        left: 25px;
+        width: calc(100vw - 50px);
+        height:  calc(100vh - 50px);
         z-index: 1000;
-        background: rgba(0, 0, 0, 0.8);
-        color: #fff;
+        background: white;
+        color: #AC0E22;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        p {
+            font-size: 18px;
+        }
+        > div {
+            max-width: 800px;
+        }
     }
 
     .modal-close {
@@ -40,7 +51,7 @@
         border: none;
         width: 50px;
         height: 50px;
-        color: #fff;
+        color: #AC0E22;
         cursor: pointer;
         font-size: 2em;
         outline: none;

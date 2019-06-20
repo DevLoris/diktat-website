@@ -1,16 +1,15 @@
 <template>
     <FullscreenFrame>
-        <p class="lax" :data-lax-scale="getScaleString()" :data-lax-opacity="getOpacityString()">{{ text }}</p>
+        <img src="../assets/logo.svg" class="lax" :data-lax-scale="getScaleString()" :data-lax-opacity="getOpacityString()">
     </FullscreenFrame>
 </template>
 
 <script>
     import FullscreenFrame from "./FullscreenFrame";
     export default {
-        name: "CenteredText",
+        name: "CenteredLogo",
         components: {FullscreenFrame},
         props: {
-            text: '',
             index: null
         },
         methods: {
@@ -27,9 +26,8 @@
 </script>
 
 <style scoped>
-    p {
-        color: white;
-        font-size: 35px;
-        font-weight: bold;
+    img {
+        width: 100%;
+        max-width: 300px;
     }
 </style>
