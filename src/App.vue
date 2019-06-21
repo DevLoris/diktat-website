@@ -1,36 +1,9 @@
 <template>
   <div id="app">
     <div id="nav">
-      <button @click="showModal = true">Show Modal</button>
       <router-link to="/">{{ $t('nav.home') }}</router-link>
       <router-link to="/about">{{ $t('nav.about') }}</router-link>
     </div>
-
-
-    <Modal :show="showModal">
-      <h1>L'équipe</h1>
-      <p>trop une bonne équipe les frr</p>
-      <div class="columns">
-        <div class="column">
-          <img src="./assets/images/team/hugo.jpg">
-          <h2>Hugo Duval</h2>
-          <strong>Développeur chauve</strong>
-          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ab delectus dignissimos dolorem, esse excepturi fugiat harum ipsa magnam minus molestias numquam quo soluta ullam? Dolore eligendi error molestias nesciunt tenetur?</p>
-        </div>
-        <div class="column">
-          <img src="./assets/images/team/hugo.jpg">
-          <h2>Hugo Duval</h2>
-          <strong>Développeur chauve</strong>
-          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ab delectus dignissimos dolorem, esse excepturi fugiat harum ipsa magnam minus molestias numquam quo soluta ullam? Dolore eligendi error molestias nesciunt tenetur?</p>
-        </div>
-        <div class="column">
-          <img src="./assets/images/team/hugo.jpg">
-          <h2>Hugo Duval</h2>
-          <strong>Développeur chauve</strong>
-          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ab delectus dignissimos dolorem, esse excepturi fugiat harum ipsa magnam minus molestias numquam quo soluta ullam? Dolore eligendi error molestias nesciunt tenetur?</p>
-        </div>
-      </div>
-    </Modal>
 
     <LocaleSwitch/>
     <router-view/>
@@ -53,7 +26,6 @@
      */
     data() {
       return {
-        showModal: false
       }
     },
     beforeCreate() {
@@ -76,15 +48,37 @@
 </script>
 
 <style lang="scss">
+  @font-face {
+    font-family: 'bluu';
+    src: url('./assets/webfonts/bluunext-bold-webfont.woff2') format('woff2'),
+    url('./assets/webfonts/bluunext-bold-webfont.woff') format('woff'),
+    url('./assets/webfonts/bluunext-bold.ttf') format('truetype'),
+    url('./assets/webfonts/bluunext-bold-webfont.svg#bluu_nextbold') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+  }
+
+  @font-face {
+    font-family: 'bluu';
+    src: url('./assets/webfonts/bluunext-bolditalic-webfont.woff2') format('woff2'),
+    url('./assets/webfonts/bluunext-bolditalic-webfont.woff') format('woff'),
+    url('./assets/webfonts/bluunext-bolditalic.ttf') format('truetype'),
+    url('./assets/webfonts/bluunext-bolditalic-webfont.svg#bluu_nextbold_italic') format('svg');
+    font-weight: normal;
+    font-style: italic;
+
+  }
+
+
   body {
     padding: 0;
     margin: 0;
     width: 100vw;
-    height: 2500vh;
     background: #AC0E22;
   }
   #app {
-    font-family: 'Avenir', Helvetica, Arial, sans-serif;
+    font-family: 'bluu', Helvetica, Arial, sans-serif;
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
     text-align: center;
@@ -95,6 +89,7 @@
     position: fixed;
     right: 20px;
     top: 20px;
+    z-index: 10000;
     a {
       font-weight: bold;
       color: #ffffff;
@@ -110,6 +105,22 @@
       img {
         width: 100%;
       }
+    }
+  }
+
+  .btn {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    font-size: 20px;
+    border: 2px solid white;
+    display: inline-block;
+    margin-top: 10px;
+    padding: 10px 20px 8px;
+    cursor: pointer;
+    &:hover {
+      background: white;
+      color: #AC0E22;
     }
   }
 </style>
