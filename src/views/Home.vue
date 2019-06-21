@@ -21,8 +21,23 @@ import CenteredTranslateImage from "../components/CenteredTranslateImage";
 import CenteredPosterSimulation from "../components/CenteredPosterSimulation";
 export default {
   name: 'home',
+  mounted() {
+    this.$lax.setup()
+    const updateLax = () => {
+      this.$lax.update(window.scrollY);
+      window.requestAnimationFrame(updateLax)
+    };
+
+    window.requestAnimationFrame(updateLax)
+  },
   components: {
     CenteredPosterSimulation,
     CenteredTranslateImage, CenteredLogo, Logo, CenteredText, QuoteText, FullscreenFrame},
 }
 </script>
+
+<style lang="scss">
+  .home {
+    height: 2500vh;
+  }
+</style>
