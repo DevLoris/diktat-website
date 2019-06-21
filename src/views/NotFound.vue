@@ -1,29 +1,37 @@
 <template>
-    <div>
-        <h1>{{$t('NotFound.title')}}</h1>
-        <p>{{$t('NotFound.content')}}</p>
-        <button @click="showModal = !showModal">Show Modal</button>
-        <Modal :show="showModal">
-            <h2>Modal test</h2>
-            <p>Modal test for the 404 page.</p>
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Alias, asperiores assumenda atque eaque, eveniet ex illum minima optio praesentium quam sapiente tenetur vitae. Culpa eaque in laboriosam minima qui, totam?</p>
-        </Modal>
+    <div id="error404">
+        <div>
+            <h1>{{$t('NotFound.title')}}</h1>
+            <p>{{$t('NotFound.content')}}</p>
+            <router-link to="/" class="btn">{{ $t('nav.back-to-home') }}</router-link>
+        </div>
     </div>
 </template>
 
 <script>
-    import Modal from "../components/Modal";
     export default {
         name: "NotFound",
-        components: {Modal},
-        data() {
-            return {
-                showModal: false
-            }
-        }
+        components: {}
     }
 </script>
 
-<style scoped>
-
+<style lang="scss" scoped>
+    #error404 {
+        color: white;
+        width: 100vw;
+        height: 100vh;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        font-size: 18px;
+        h1 {
+            padding: 0;
+            margin: 0;
+            font-size: 35px;
+        }
+        p {
+            opacity: 0.7;
+        }
+    }
 </style>
+

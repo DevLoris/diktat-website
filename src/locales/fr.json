@@ -1,7 +1,8 @@
 {
   "nav": {
     "home": "Accueil",
-    "about": "À Propos"
+    "about": "À Propos",
+    "back-to-home": "Revenir au site"
   },
   "definition": {
     "source": "Centre National de Ressources Textuelles et Lexicales",
@@ -29,7 +30,7 @@
     "title": "C'est ici la page d'accueil."
   },
   "NotFound": {
-    "title": "Erreur 404 !",
-    "content": "La page que vous avez demandé n'existe pas."
+    "title": "Erreur 404",
+    "content": "Cette page n'était pas très belle..."
   }
 }
