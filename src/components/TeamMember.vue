@@ -2,8 +2,8 @@
     <div class="team-member">
         <img :src="image">
         <h2>{{name}}</h2>
-        <strong>{{role}}</strong>
-        <p>{{bio}}</p>
+        <strong>{{$t(role)}}</strong>
+        <p>{{$t(bio)}}</p>
     </div>
 </template>
 

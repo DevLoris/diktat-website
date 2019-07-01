@@ -3,8 +3,8 @@
         <div class="slider-slide-background" :style="'background-image: url(' +  image +')'"></div>
         <div class="slider-slide-index">{{ index }}</div>
         <div class="slider-slide-content">
-            <div class="slider-slide-content-name">{{ name }}</div>
-            <p class="slider-slide-content-text">{{ text }}</p>
+            <div class="slider-slide-content-name">{{ $t(name) }}</div>
+            <p class="slider-slide-content-text">{{ $t(text) }}</p>
         </div>
     </div>
 </template>
