@@ -1,7 +1,8 @@
 {
     "name": "anorexia",
-    "title": "L'Anorexie",
-    "text": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Delectus deserunt eius eos esse eveniet, exercitationem facilis illum, incidunt iusto labore magni minima nemo perspiciatis, reiciendis reprehenderit? Esse neque obcaecati sit!",
+    "title": "Minceur",
+    "subtitle": "Minceur abusive",
+    "text": "Pour des raisons esthétiques, de nombreuses personnes, majoritairement des femmes, ont recours à des pratiques excessive. Parmis celles-ci, le vomissement forcé et la lyse adipocytaire (destruction des celluules stockant les graisses) sont les plus répandues. Toutes ces pratiques peuvent avoir un impact très dangeureux sur la santé.",
     "layers": [
         {
             "id": "background",
