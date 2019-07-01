@@ -18,47 +18,47 @@
         members: [
           {
             name: "Hugo Duval",
-            bio: "Hugo vit désormais en Suède, avec sa belle blonde.",
-            role: "Beau Développeur",
+            bio:  this.$t('team.hugo.bio'),
+            role: this.$t('team.hugo.role'),
             image: require('../assets/images/team/hugo.jpg')
           },
           {
             name: "Loris Pinna",
-            bio: "Loris est normalement un développeur, mais il est désormais malade.",
-            role: "Magnifique couteau suisse",
+            bio:  this.$t('team.loris.bio'),
+            role: this.$t('team.loris.role'),
             image: require('../assets/images/team/loris.jpg')
           },
           {
             name: "Nitya Tchangodei",
-            bio: "Nitya est partie car le graphisme ne lui convenait pas.",
-            role: "Splendide graphiste",
+            bio:  this.$t('team.nitya.bio'),
+            role: this.$t('team.nitya.role'),
             image: require('../assets/images/team/nitya.jpg')
           }
         ],
         slides: [
           {
-            name: "Direction le musée",
-            text: "Pour commencer, tu te rends au musée et tu entres dans notre exposition.",
+            name:  this.$t("slide.1.name"),
+            text: this.$t('slide.1.text'),
             image: require('../assets/images/background/museum.png')
           },
           {
-            name: "Application diktat",
-            text: "Tu as 2 choix : tu peux télécharger l'application diktat. sur ton téléphone, ou bien nous te prêtons une tablette.",
+            name:  this.$t("slide.2.name"),
+            text: this.$t('slide.2.text'),
             image: require('../assets/images/background/appstore.png')
           },
           {
-            name: "Début de l'exposition",
-            text: "Tu te balades dans l'exposition, et tu t’approches d’une affiche.",
+            name:  this.$t("slide.3.name"),
+            text: this.$t('slide.3.text'),
             image: require('../assets/images/background/exposition.png')
           },
           {
-            name: "Scanner une affiche",
-            text: "Tu scannes l’affiche avec l’application pour découvrir ses secrets. Tu peux te balader autour pour chercher des éléments cachés.",
+            name:  this.$t("slide.4.name"),
+            text: this.$t('slide.4.text'),
             image: require('../assets/images/background/ar-use.png')
           },
           {
-            name: "Découverte et intéraction",
-            text: "Certaines affiches sont interactives. Différentes actions permettent de révéler d’autres éléments. Tu peux aussi en apprendre plus sur les diktats.",
+            name:  this.$t("slide.5.name"),
+            text: this.$t('slide.5.text'),
             image: require('../assets/images/background/collection.png')
           }
         ]

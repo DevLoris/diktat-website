@@ -1,9 +1,19 @@
-# diktat-website
+# diktat.
+*Communication website* 
+
+## Access
 [![Netlify Status](https://api.netlify.com/api/v1/badges/d673ab1a-5f5e-49bb-9806-844e6d2d3f7c/deploy-status)](https://app.netlify.com/sites/diktat/deploys)
 
 **Project URL: [https://diktat.netlify.com/](https://diktat.netlify.com/)**
 
-## Project setup
+## About
+Website of "diktat. Les dessous de la beauté" exhibition.
+- Discover the exhibition
+- Discover members of the team
+
+## Installation
+
+### Project setup
 ```
 npm install
 ```
@@ -17,21 +27,4 @@ npm run serve
 ```
 npm run build
 ```
-
-### Run your tests
-```
-npm run test
-```
-
-### Lints and fixes files
-```
-npm run lint
-```
-
-### Run your unit tests
-```
-npm run test:unit
-```
-
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
+ 

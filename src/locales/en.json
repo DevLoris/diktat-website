@@ -1,33 +1,66 @@
 {
   "nav": {
-    "home": "Home",
-    "about": "About",
+    "home": "Under the beauty",
+    "about": "Discover",
     "back-to-home": "Back to website"
   },
   "definition": {
-    "source": "Centre National de Ressources Textuelles et Lexicales",
-    "text": "Caractère de ce qui est beau, de ce qui plaît universellement."
+    "source": "National Center for Textual Resources and Lexicales",
+    "text": "Character of what is beautiful, of what pleases everyone."
   },
   "rip": {
-    "text": "La beauté a une face cachée. Découvrez la grâce à diktat."
+    "text": "Beauty has a hidden side. Beware of it."
   },
-  "but": {
-    "text": "But..."
+  "lookthisposter": {
+    "text": "Look at this picture..."
   },
   "look": {
-    "text": "Look closer"
+    "text": "Wait, look a little more closer."
   },
-  "layer": {
-    "catch": "Cool text"
+  "yousee": {
+    "text": "Did you notice anything in particular?"
   },
-  "about": {
-    "title": "About de diktat."
-  },
-  "home": {
-    "title": "The homepage is here."
+  "discover": {
+    "text": "Discover the diktat exhibition."
   },
   "NotFound": {
     "title": "Error 404!",
     "content": "This page isn't beautiful..."
+  },
+  "slide": {
+    "1": {
+      "name": "Direction the museum",
+      "text": "To begin with, go to the museum and enter our exhibition"
+    },
+    "2": {
+      "name": "Application diktat",
+      "text": "You have 2 choices: you can download the diktat application on your phone, or we'll lend you a tablet."
+    },
+    "3": {
+      "name": "Start of the exhibition",
+      "text": "You walk around the exhibition, and you approach a poster."
+    },
+    "4": {
+      "name": "Scan a poster",
+      "text": "You scan the poster with the application to discover its secrets. You can walk around looking for hidden elements."
+    },
+    "5": {
+      "name": "Discovery and interaction",
+      "text": "Some posters are interactive. Different actions reveal other elements. You can also learn more about diktats."
+    }
+  },
+  "team" : {
+    "nitya":  {
+      "bio": "Nitya was in charge of the design and production of all the posters for the exhibition.",
+      "role": "Splendid graphic designer"
+    },
+    "hugo": {
+      "bio": "Hugo do a part of the development. It is thanks to him that the posters have beautiful texts.",
+      "role": "Awesome developper"
+    },
+    "loris":  {
+      "bio": "Loris do the poster detection so your phone could say « Oh, a poster ».",
+      "role": "Magnificent Swiss knife"
+    }
   }
 }

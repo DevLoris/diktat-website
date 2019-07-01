@@ -1,7 +1,7 @@
 {
   "nav": {
-    "home": "Accueil",
-    "about": "À Propos",
+    "home": "Les dessous de la beauté",
+    "about": "Découvrir l'exposition",
     "back-to-home": "Revenir au site"
   },
   "definition": {
@@ -9,28 +9,58 @@
     "text": "Caractère de ce qui est beau, de ce qui plaît universellement."
   },
   "rip": {
-    "text": "La beauté a une face cachée. Découvrez la grâce à diktat."
+    "text": "La beauté a une face cachée. Méfiez-vous en."
   },
-  "but": {
-    "text": "Et pourtant..."
+  "lookthisposter": {
+    "text": "Regarde cette photo..."
   },
   "look": {
-    "text": "Regarde d'un peu plus près"
+    "text": "Attends, regarde d'un peu plus près"
   },
   "yousee": {
-    "text": "As-tu remarqué quelque chose de particulier ?"
+    "text": "Tu n'as rien remarqué de particulier ?"
   },
-  "layer": {
-    "catch": "Texte cool"
-  },
-  "about": {
-    "title": "À propos de diktat de la beauté."
-  },
-  "home": {
-    "title": "C'est ici la page d'accueil."
+  "discover": {
+    "text": "Découvrez l'exposition diktat."
   },
   "NotFound": {
     "title": "Erreur 404",
     "content": "Cette page n'était pas très belle..."
+  },
+  "slide": {
+    "1": {
+      "name": "Direction le musée",
+      "text": "Pour commencer, tu te rends au musée et tu entres dans notre exposition"
+    },
+    "2": {
+      "name": "Application diktat",
+      "text": "Tu as 2 choix : tu peux télécharger l'application diktat. sur ton téléphone, ou bien nous te prêtons une tablette."
+    },
+    "3": {
+      "name": "Début de l'exposition",
+      "text": "Tu te balades dans l'exposition, et tu t’approches d’une affiche."
+    },
+    "4": {
+      "name": "Scanner une affiche",
+      "text": "Tu scannes l’affiche avec l’application pour découvrir ses secrets. Tu peux te balader autour pour chercher des éléments cachés."
+    },
+    "5": {
+      "name": "Découverte et intéraction",
+      "text": "Certaines affiches sont interactives. Différentes actions permettent de révéler d’autres éléments. Tu peux aussi en apprendre plus sur les diktats."
+    }
+  },
+  "team" : {
+    "nitya":  {
+      "bio": "Nitya s'est occupée du design et de la réalisation de toutes les affiches de l'exposition.",
+      "role": "Splendide graphiste"
+    },
+    "hugo": {
+      "bio": "Hugo s'est occupé du développement. C'est grâce à lui que les portraits ont de beaux textes.",
+      "role": "Beau développeur"
+    },
+    "loris":  {
+      "bio": "Loris s'est occupé de la détection des affiches pour que ton téléphone puisse se dire « Oh, une affiche ».",
+      "role": "Magnifique couteau suisse"
+    }
   }
 }

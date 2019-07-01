@@ -35,14 +35,6 @@
       this.$i18n.locale = locale;
     },
     mounted() {
-      this.$lax.setup() // init
-
-      const updateLax = () => {
-        this.$lax.update(window.scrollY);
-        window.requestAnimationFrame(updateLax)
-      };
-
-      window.requestAnimationFrame(updateLax)
     }
   }
 </script>
