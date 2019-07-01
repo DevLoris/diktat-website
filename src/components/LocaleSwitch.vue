@@ -37,6 +37,7 @@
     .locale-switch {
         position: fixed;
         top: 20px;
+        z-index: 666;
         left: 20px;
         &.expanded {
             background: rgba(0, 0, 0, 0.51);
